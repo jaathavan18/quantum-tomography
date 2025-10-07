@@ -1,0 +1,30 @@
+# Configuration for Priority A experiments
+
+experiment:
+  name: "Priority A - Finite Shots and Readout Noise"
+  seeds: [48, 49, 50]
+  
+data:
+  n_train: 80000
+  n_val: 10000
+  n_test: 10000
+  ensemble_type: "general"
+
+measurements:
+  types: ["baseline", "XZ"]
+  shots: [10, 100, 1000]
+  noise_levels: [0.0, 0.01, 0.05]
+
+model:
+  hidden_dims: [256, 128, 64, 32]
+  dropout: 0.1
+
+training:
+  batch_size: 512
+  learning_rate: 0.001
+  epochs: 1000
+  patience: 100
+
+output:
+  dir: "results/expt_3"
+  save_checkpoints: true

@@ -1,0 +1,6 @@
+Measurement,Mean Fidelity,Std,N
+XY,0.696,0.091,15
+XZ,0.793,0.062,48
+YZ,0.763,0.101,15
+baseline,0.890,0.088,45
+sic,0.924,0.001,3

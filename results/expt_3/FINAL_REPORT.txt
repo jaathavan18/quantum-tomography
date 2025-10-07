@@ -1,0 +1,193 @@
+================================================================================
+QUANTUM STATE TOMOGRAPHY - FINAL EXPERIMENTAL REPORT
+================================================================================
+
+Date: 2025-10-04 08:46:47.622781
+Master Seed: 48
+Total Experiments: 126
+Output Directory: expt_3
+
+--------------------------------------------------------------------------------
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Mean Fidelity across all experiments: 0.8156 +/- 0.1045
+Best Fidelity: 0.9999
+Worst Fidelity: 0.5605
+
+Experiments with fidelity > 0.90: 33/126 (26.2%)
+
+--------------------------------------------------------------------------------
+KEY FINDINGS
+--------------------------------------------------------------------------------
+
+Priority A: 54 experiments
+  Mean Fidelity: 0.8529 +/- 0.0559
+  Range: [0.7679, 0.9252]
+
+Priority B: 60 experiments
+  Mean Fidelity: 0.7706 +/- 0.1252
+  Range: [0.5605, 0.9999]
+
+Priority C: 6 experiments
+  Mean Fidelity: 0.8728 +/- 0.0512
+  Range: [0.8198, 0.9252]
+
+Priority D: 6 experiments
+  Mean Fidelity: 0.8729 +/- 0.0512
+  Range: [0.8203, 0.9261]
+
+--------------------------------------------------------------------------------
+ANOMALY CHECKS
+--------------------------------------------------------------------------------
+[OK] 2-basis performance reasonable (max: 0.8812)
+
+--------------------------------------------------------------------------------
+FILES GENERATED
+--------------------------------------------------------------------------------
+  - failure_examples.png
+  - FINAL_REPORT.txt
+  - noise_degradation.png
+  - priority_a_aggregated.csv
+  - priority_a_comparison.png
+  - priority_a_fidelity_cdf.png
+  - priority_a_summary.csv
+  - priority_b_aggregated.csv
+  - priority_b_comparison.png
+  - priority_b_fidelity_cdf.png
+  - priority_b_summary.csv
+  - priority_c_aggregated.csv
+  - priority_c_fidelity_cdf.png
+  - priority_c_summary.csv
+  - priority_d_aggregated.csv
+  - priority_d_summary.csv
+  - PriorityA_shots1000_noise0pct_baseline_seed48.pkl
+  - PriorityA_shots1000_noise0pct_baseline_seed49.pkl
+  - PriorityA_shots1000_noise0pct_baseline_seed50.pkl
+  - PriorityA_shots1000_noise0pct_XZ_seed48.pkl
+  - PriorityA_shots1000_noise0pct_XZ_seed49.pkl
+  - PriorityA_shots1000_noise0pct_XZ_seed50.pkl
+  - PriorityA_shots1000_noise1pct_baseline_seed48.pkl
+  - PriorityA_shots1000_noise1pct_baseline_seed49.pkl
+  - PriorityA_shots1000_noise1pct_baseline_seed50.pkl
+  - PriorityA_shots1000_noise1pct_XZ_seed48.pkl
+  - PriorityA_shots1000_noise1pct_XZ_seed49.pkl
+  - PriorityA_shots1000_noise1pct_XZ_seed50.pkl
+  - PriorityA_shots1000_noise5pct_baseline_seed48.pkl
+  - PriorityA_shots1000_noise5pct_baseline_seed49.pkl
+  - PriorityA_shots1000_noise5pct_baseline_seed50.pkl
+  - PriorityA_shots1000_noise5pct_XZ_seed48.pkl
+  - PriorityA_shots1000_noise5pct_XZ_seed49.pkl
+  - PriorityA_shots1000_noise5pct_XZ_seed50.pkl
+  - PriorityA_shots100_noise0pct_baseline_seed48.pkl
+  - PriorityA_shots100_noise0pct_baseline_seed49.pkl
+  - PriorityA_shots100_noise0pct_baseline_seed50.pkl
+  - PriorityA_shots100_noise0pct_XZ_seed48.pkl
+  - PriorityA_shots100_noise0pct_XZ_seed49.pkl
+  - PriorityA_shots100_noise0pct_XZ_seed50.pkl
+  - PriorityA_shots100_noise1pct_baseline_seed48.pkl
+  - PriorityA_shots100_noise1pct_baseline_seed49.pkl
+  - PriorityA_shots100_noise1pct_baseline_seed50.pkl
+  - PriorityA_shots100_noise1pct_XZ_seed48.pkl
+  - PriorityA_shots100_noise1pct_XZ_seed49.pkl
+  - PriorityA_shots100_noise1pct_XZ_seed50.pkl
+  - PriorityA_shots100_noise5pct_baseline_seed48.pkl
+  - PriorityA_shots100_noise5pct_baseline_seed49.pkl
+  - PriorityA_shots100_noise5pct_baseline_seed50.pkl
+  - PriorityA_shots100_noise5pct_XZ_seed48.pkl
+  - PriorityA_shots100_noise5pct_XZ_seed49.pkl
+  - PriorityA_shots100_noise5pct_XZ_seed50.pkl
+  - PriorityA_shots10_noise0pct_baseline_seed48.pkl
+  - PriorityA_shots10_noise0pct_baseline_seed49.pkl
+  - PriorityA_shots10_noise0pct_baseline_seed50.pkl
+  - PriorityA_shots10_noise0pct_XZ_seed48.pkl
+  - PriorityA_shots10_noise0pct_XZ_seed49.pkl
+  - PriorityA_shots10_noise0pct_XZ_seed50.pkl
+  - PriorityA_shots10_noise1pct_baseline_seed48.pkl
+  - PriorityA_shots10_noise1pct_baseline_seed49.pkl
+  - PriorityA_shots10_noise1pct_baseline_seed50.pkl
+  - PriorityA_shots10_noise1pct_XZ_seed48.pkl
+  - PriorityA_shots10_noise1pct_XZ_seed49.pkl
+  - PriorityA_shots10_noise1pct_XZ_seed50.pkl
+  - PriorityA_shots10_noise5pct_baseline_seed48.pkl
+  - PriorityA_shots10_noise5pct_baseline_seed49.pkl
+  - PriorityA_shots10_noise5pct_baseline_seed50.pkl
+  - PriorityA_shots10_noise5pct_XZ_seed48.pkl
+  - PriorityA_shots10_noise5pct_XZ_seed49.pkl
+  - PriorityA_shots10_noise5pct_XZ_seed50.pkl
+  - PriorityB_mixed_p0.1_baseline_seed48.pkl
+  - PriorityB_mixed_p0.1_baseline_seed49.pkl
+  - PriorityB_mixed_p0.1_baseline_seed50.pkl
+  - PriorityB_mixed_p0.1_XY_seed48.pkl
+  - PriorityB_mixed_p0.1_XY_seed49.pkl
+  - PriorityB_mixed_p0.1_XY_seed50.pkl
+  - PriorityB_mixed_p0.1_XZ_seed48.pkl
+  - PriorityB_mixed_p0.1_XZ_seed49.pkl
+  - PriorityB_mixed_p0.1_XZ_seed50.pkl
+  - PriorityB_mixed_p0.1_YZ_seed48.pkl
+  - PriorityB_mixed_p0.1_YZ_seed49.pkl
+  - PriorityB_mixed_p0.1_YZ_seed50.pkl
+  - PriorityB_mixed_p0.25_baseline_seed48.pkl
+  - PriorityB_mixed_p0.25_baseline_seed49.pkl
+  - PriorityB_mixed_p0.25_baseline_seed50.pkl
+  - PriorityB_mixed_p0.25_XY_seed48.pkl
+  - PriorityB_mixed_p0.25_XY_seed49.pkl
+  - PriorityB_mixed_p0.25_XY_seed50.pkl
+  - PriorityB_mixed_p0.25_XZ_seed48.pkl
+  - PriorityB_mixed_p0.25_XZ_seed49.pkl
+  - PriorityB_mixed_p0.25_XZ_seed50.pkl
+  - PriorityB_mixed_p0.25_YZ_seed48.pkl
+  - PriorityB_mixed_p0.25_YZ_seed49.pkl
+  - PriorityB_mixed_p0.25_YZ_seed50.pkl
+  - PriorityB_mixed_p0.5_baseline_seed48.pkl
+  - PriorityB_mixed_p0.5_baseline_seed49.pkl
+  - PriorityB_mixed_p0.5_baseline_seed50.pkl
+  - PriorityB_mixed_p0.5_XY_seed48.pkl
+  - PriorityB_mixed_p0.5_XY_seed49.pkl
+  - PriorityB_mixed_p0.5_XY_seed50.pkl
+  - PriorityB_mixed_p0.5_XZ_seed48.pkl
+  - PriorityB_mixed_p0.5_XZ_seed49.pkl
+  - PriorityB_mixed_p0.5_XZ_seed50.pkl
+  - PriorityB_mixed_p0.5_YZ_seed48.pkl
+  - PriorityB_mixed_p0.5_YZ_seed49.pkl
+  - PriorityB_mixed_p0.5_YZ_seed50.pkl
+  - PriorityB_near_pure_baseline_seed48.pkl
+  - PriorityB_near_pure_baseline_seed49.pkl
+  - PriorityB_near_pure_baseline_seed50.pkl
+  - PriorityB_near_pure_XY_seed48.pkl
+  - PriorityB_near_pure_XY_seed49.pkl
+  - PriorityB_near_pure_XY_seed50.pkl
+  - PriorityB_near_pure_XZ_seed48.pkl
+  - PriorityB_near_pure_XZ_seed49.pkl
+  - PriorityB_near_pure_XZ_seed50.pkl
+  - PriorityB_near_pure_YZ_seed48.pkl
+  - PriorityB_near_pure_YZ_seed49.pkl
+  - PriorityB_near_pure_YZ_seed50.pkl
+  - PriorityB_pure_baseline_seed48.pkl
+  - PriorityB_pure_baseline_seed49.pkl
+  - PriorityB_pure_baseline_seed50.pkl
+  - PriorityB_pure_XY_seed48.pkl
+  - PriorityB_pure_XY_seed49.pkl
+  - PriorityB_pure_XY_seed50.pkl
+  - PriorityB_pure_XZ_seed48.pkl
+  - PriorityB_pure_XZ_seed49.pkl
+  - PriorityB_pure_XZ_seed50.pkl
+  - PriorityB_pure_YZ_seed48.pkl
+  - PriorityB_pure_YZ_seed49.pkl
+  - PriorityB_pure_YZ_seed50.pkl
+  - PriorityC_sic_seed48.pkl
+  - PriorityC_sic_seed49.pkl
+  - PriorityC_sic_seed50.pkl
+  - PriorityC_XZ_seed48.pkl
+  - PriorityC_XZ_seed49.pkl
+  - PriorityC_XZ_seed50.pkl
+  - PriorityD_adaptive_baseline_seed48.pkl
+  - PriorityD_adaptive_baseline_seed49.pkl
+  - PriorityD_adaptive_baseline_seed50.pkl
+  - PriorityD_adaptive_XZ_seed48.pkl
+  - PriorityD_adaptive_XZ_seed49.pkl
+  - PriorityD_adaptive_XZ_seed50.pkl
+  - sample_training_curves_a.png
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,30 @@
+# Configuration for Priority D experiments
+
+experiment:
+  name: "Priority D - Adaptive Baseline"
+  seeds: [48, 49, 50]
+  
+data:
+  n_train: 80000
+  n_val: 10000
+  n_test: 10000
+  ensemble_type: "general"
+
+measurements:
+  types: ["baseline", "XZ"]
+  shots: null
+  noise_levels: [0.0]
+  adaptive: true  # Future implementation
+
+model:
+  hidden_dims: [256, 128, 64, 32]
+  dropout: 0.1
+
+training:
+  batch_size: 512
+  learning_rate: 0.001
+  epochs: 1000
+  patience: 100
+
+output:
+  dir: "results/expt_3"

@@ -1,0 +1,3 @@
+Configuration,Mean Fidelity,Std across seeds,Min Fidelity,Max Fidelity,N Seeds
+PriorityD_adaptive_baseline,0.9240344,0.0014712721,0.9228382,0.9261069,3
+PriorityD_adaptive_XZ,0.82170826,0.001470833,0.82033205,0.82374716,3

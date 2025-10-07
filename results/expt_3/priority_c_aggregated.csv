@@ -1,0 +1,3 @@
+Configuration,Mean Fidelity,Std across seeds,Min Fidelity,Max Fidelity,N Seeds
+PriorityC_sic,0.923975,0.00094930263,0.92289317,0.9252044,3
+PriorityC_XZ,0.82169515,0.0025816262,0.81983614,0.8253459,3

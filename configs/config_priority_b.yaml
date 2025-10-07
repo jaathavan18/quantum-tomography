@@ -1,0 +1,40 @@
+# Configuration for Priority B experiments
+
+experiment:
+  name: "Priority B - Ensemble Types"
+  seeds: [48, 49, 50]
+  
+data:
+  n_train: 80000
+  n_val: 10000
+  n_test: 10000
+
+ensembles:
+  - type: "pure"
+    mixing_p: null
+  - type: "near_pure"
+    mixing_p: null
+  - type: "mixed"
+    mixing_p: 0.1
+  - type: "mixed"
+    mixing_p: 0.25
+  - type: "mixed"
+    mixing_p: 0.5
+
+measurements:
+  types: ["baseline", "XY", "XZ", "YZ"]
+  shots: null  # infinite shots
+  noise_levels: [0.0]
+
+model:
+  hidden_dims: [256, 128, 64, 32]
+  dropout: 0.1
+
+training:
+  batch_size: 512
+  learning_rate: 0.001
+  epochs: 1000
+  patience: 100
+
+output:
+  dir: "results/expt_3"
