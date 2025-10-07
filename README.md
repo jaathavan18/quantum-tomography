@@ -409,7 +409,7 @@ If you use this code or findings in your research, please cite:
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/quantum-tomography-nn}},
+  howpublished = {\url{https://github.com/jaathavan18/quantum-tomography-nn}},
   note = {Software and preprint}
 }
 ```
