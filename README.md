@@ -402,14 +402,15 @@ Each `.pkl` file contains:
 
 If you use this code or findings in your research, please cite:
 
-```bibtex
-@inproceedings{quantum_tomography_nn_2025,
-  title={Neural Network-Based Quantum State Tomography with Reduced Measurement Complexity: A Comprehensive Study of Finite-Shot and Noisy Scenarios},
-  author={Anonymous Authors},
-  booktitle={IEEE Conference Proceedings},
-  year={2025}
+@misc{jaathavan182025quantum,
+  author = {Janarthan Aravindan Aathavan},
+  title = {Neural Network-Based Quantum State Tomography with Reduced Measurement Complexity},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yourusername/quantum-tomography-nn}},
+  note = {Software and preprint}
 }
-```
 
 ---
 
