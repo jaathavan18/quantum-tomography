@@ -402,6 +402,7 @@ Each `.pkl` file contains:
 
 If you use this code or findings in your research, please cite:
 
+```bibtex
 @misc{jaathavan182025quantum,
   author = {Janarthan Aravindan Aathavan},
   title = {Neural Network-Based Quantum State Tomography with Reduced Measurement Complexity},
