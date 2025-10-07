@@ -412,7 +412,7 @@ If you use this code or findings in your research, please cite:
   howpublished = {\url{https://github.com/yourusername/quantum-tomography-nn}},
   note = {Software and preprint}
 }
-
+```
 ---
 
 ## 🤝 Contributing
